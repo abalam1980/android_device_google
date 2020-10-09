@@ -1,5 +1,5 @@
 #
-# Copyright 2018-2019 The Dirty Unicorns Project
+# Copyright 2018-2020 The Dirty Unicorns Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

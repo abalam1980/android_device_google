@@ -1,4 +1,4 @@
-# Copyright (C) 2018-2019 The Dirty Unicorns Project
+# Copyright (C) 2018-2020 The Dirty Unicorns Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -40,14 +40,12 @@ PRODUCT_MANUFACTURER := Google
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="flame" \
     TARGET_DEVICE="flame" \
-    PRIVATE_BUILD_DESC="flame-user 10 QQ3A.200605.001 6392402 release-keys"
+    PRIVATE_BUILD_DESC="flame-user 11 RP1A.201005.004 6782484 release-keys"
 
-BUILD_FINGERPRINT := "google/flame/flame:10/QQ3A.200605.001/6392402:user/release-keys"
+BUILD_FINGERPRINT := "google/flame/flame:11/RP1A.201005.004/6782484:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/flame/flame:10/QQ3A.200605.001/6392402:user/release-keys
-
-BOARD_PREBUILT_VENDORIMAGE := vendor/images/flame/vendor.img
+    ro.build.fingerprint=google/flame/flame:11/RP1A.201005.004/6782484:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/flame/flame-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
